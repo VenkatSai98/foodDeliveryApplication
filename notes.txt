@@ -1,0 +1,252 @@
+extensions:
+better comments
+bracket pair colorization
+E7+ react/redux
+eslint
+html css super
+tabine ai
+tailwind css
+prettify json
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+I am a Web Developer adept in designing, developing, debugging and testing User Interfaces. I am proficient in JavaScript, React, Angular, NodeJS and MongoDB.
+ I love to learn and implement things in all aspects of my life.
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+onKeyUp
+
+XMLhttprequest
+
+In Herc PLP page on intial page load we are using mock to load the data (productListDetails)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Request is the incoming stream to the server. The first Parameter URL is compulsory. Second parameter is optional with options like http method, payload, etc.
+
+Thunk is a middleware to help asychronous actions
+
+for fetch call we don't need any parameters to send in API if needed we send in query params of that api
+for post call we need to send it
+
+we can make a property of an object immutable with Object.defineProperty
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+const FAV_PET = "Cats";
+FAV_PET = "Dogs";
+
+It is common for developers to use uppercase variable identifiers for immutable values and lowercase or camelCase for mutable values (objects and arrays)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+data.cards[2].groupedCard.cardGroupMap.REGULAR.cards
+data.cards[2].groupedCard.cardGroupMap.REGULAR.cards[1].card.card.itemCards[0].card.info.category
+
+------------------------------------------------------------------------------------------------
+adding iframes using js
+
+<div id="iframe-container"></div>
+<script>
+  var iframe = document.createElement('iframe');
+  iframe.src = 'external-content.html';
+  iframe.width = 600;
+  iframe.height = 400;
+  document.getElementById('iframe-container').appendChild(iframe);
+</script>
+
+-------------------------------------------------------------------------------------------------
+
+google-map-react
+
+saifedeveloper@yopmail.com
+
+venkatasaivibrant@gmail.com
+Guess@98480
+-------------------------------------------------------------------------------------------------
+391450
+
+34633
+
+<ul>
+        {itemCards?.map((items) => (
+          <li key={items?.card.info.id}>
+            {items?.card?.info?.name} - Rs:{" "}
+            {items?.card?.info?.price / 100 || items?.card?.info?.defaultPrice}{" "}
+            /-
+          </li>
+        ))}
+      </ul>
+
+data.cards[2].groupedCard.cardGroupMap.REGULAR.cards[1].card.card.itemCards
+data.cards[2].groupedCard.cardGroupMap.REGULAR.cards[1].card.card.title
+
+menuDetails?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1].card.card.title
+
+menu.card.card.itemCards[0].card.info.name
+
+ text-yellow-600 w-16 h-auto absolute bottom-2 p-1 border border-r-amber-100 bg-orange-100
+
+------------------------------------------------------------------------------------------------
+
+<div className="text-left">
+        {itemNames &&
+          props?.showItems &&
+          itemNames?.map((items) => {
+            return (
+              <>
+                <div className="mb-3 cursor-pointer border-b-2 flex justify-between items-center">
+                  <div className="mb-5">
+                    <h4 className="mb-2">{items?.card?.info?.name}</h4>
+                    <h6>
+                      ₹{" "}
+                      {items?.card?.info?.price
+                        ? items?.card?.info?.price / 100
+                        : items?.card?.info?.defaultPrice / 100}{" "}
+                      /-
+                    </h6>
+                  </div>
+                  <div className="relative">
+                    <img
+                      className="w-32 mb-5 border rounded-lg"
+                      src={
+                        "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
+                        items?.card?.info?.imageId
+                      }
+                      alt=""
+                    />
+                    <button className="text-white absolute bottom-5 border-slate-500 border rounded-lg w-20 bg-black">ADD +</button>
+                  </div>
+                </div>
+              </>
+            );
+          })}
+      </div>
+-------------------------------------------------------------------------------------------------
+The name "React" in the context of JavaScript and the React library is derived from its core concept of reactive programming. React was developed by Facebook and was open-sourced in 2013.
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+index.css
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+}
+.navbar > ul {
+    display: flex;
+    list-style-type: none;
+}
+.navbar > ul > li{
+   padding-right: 20px;
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   align-items: center;
+   cursor: pointer;
+}
+
+/* .logo-img > img {
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+} */
+.header-logo {
+    width: 100px;
+    padding: 10px;
+    cursor: pointer; 
+}
+
+.card-body {
+    width: 250px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-flex;
+}
+.card-body:hover {
+    border: 1px solid rgb(131, 171, 132);
+    box-shadow: 1.5px;
+}
+
+.restaurantDetails > img {
+    width: 96%;
+    height: 250px;
+    padding: 5px;
+}
+
+.cuisines-text {
+    word-break: break-word;
+    padding-right: 5px;
+}
+
+.topRatedRestaurant, .lowRatedRestaurant {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 0.5px solid black;
+    border-radius: 50px 20px;
+}
+
+.ResetRatedRestaurant{
+    padding: 10px;
+    cursor: pointer;
+    border: 0.5px solid black;
+    border-radius: 20px 50px;
+}
+
+.ratingButtons {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.search-btn {
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+}
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-cards {
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+    margin-top: 80px;
+    margin-right: 25px;
+}
+
+.login-btn {
+ margin-right: 10px;
+ padding: 5px;
+ cursor: pointer;
+}
+
+
+
+{
+    "id": 12,
+    "name": "2",
+    "type": "input",
+    "description": null,
+    "dataQuery": {
+        "id": 12,
+    }
+}
+
+// Assuming dataObj is an object containing multiple objects
+// Initialize an empty array to store the objects
+const dataArray = [];
+
+// Assuming dataObj is an object containing multiple objects
+// Loop through each object in dataObj
+for (const key in dataObj) {
+    // Check if the current property is an object
+    if (typeof dataObj[key] === 'object' && dataObj[key] !== null) {
+        // Push the object into the dataArray
+        dataArray.push(dataObj[key]);
+    }
+}
+
+console.log(dataArray);

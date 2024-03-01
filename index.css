@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-not-rendered {
+  font-weight: 900;
+  text-align: center;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  font-size: larger;
+}
+
+@media screen and (max-width: 480px) {
+  #rootElement {
+    width: fit-content;
+  }
+}
